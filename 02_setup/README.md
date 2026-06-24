@@ -1,5 +1,11 @@
 # Setting up VirtualBox and Oracle Linux
 
+<a href="https://youtu.be/eFPF2envNi8" target="_blank">
+  <img src="https://github.com/kokchun/assets/blob/main/linux/setup.png?raw=true" alt="setup oracle linux and virtualbox" width="600">
+</a>
+
+
+
 ## VirtualBox
 
 VirtualBox is a virtualization software that allow you to run multiple operating systems simultaneously on the same physical computer. Download [VirtualBox from here](https://www.virtualbox.org/wiki/Downloads).
@@ -97,7 +103,7 @@ This requires your password and then just click y to accept each installation pr
 - go into files and then run software
 
 
-### change keyboard settings
+<!-- ### change keyboard settings
 
 ```bash
 # syntax
@@ -106,38 +112,4 @@ localectl set-keymap <layout-code>
 # example swedish
 localectl set-keymap se
 ```
-
-
-
-
-
-
-
-
-
----
-
-### Install GUI - only if starting without GUI
-
-```bash
-# step 1 - update system
-sudo dnf update -y
-
-# step 2 - switch to root
-su - root
-
-# step 3 - add user to sudoers
-usermod -aG wheel <username>
-
-# step 4 - exit, then log back in
-# test that sudo works
-sudo whoami
-
-# step 5 - install GUI
-sudo dnf groupinstall "Server with GUI" -y
-
-# reboot
-sudo reboot
-```
-
-changing system settings -> requires sudo access
+ -->
