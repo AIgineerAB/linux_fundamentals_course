@@ -1,4 +1,8 @@
-# Introduction to COURSE_NAME
+# Introduction to Linux fundamentals course
+
+## TODO: intro slides 
+
+## TODO: intro video 
 
 <a href="" target="_blank">
   <img src="https://github.com/kokchun/assets/blob/main/FOLDER_NAME/.png?raw=true" alt="DESCRIPTION" width="600">
