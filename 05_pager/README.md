@@ -13,7 +13,7 @@
   - page up and down
   - jk, up, down arrow, scroll, space
 - man - show the manual of different commands 
-- apropos
+- apropos - searches description of man pages
 
 example without pager
 - help cd -> shows all text at once
