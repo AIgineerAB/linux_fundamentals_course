@@ -2,6 +2,8 @@
 
 ## TODO: intro slides 
 
+- what is Linux, Kernel vs OS
+
 ## TODO: intro video 
 
 <a href="" target="_blank">

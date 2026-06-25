@@ -1,7 +1,7 @@
 # File management
 
 <a href="" target="_blank">
-  <img src="https://github.com/kokchun/assets/blob/main/FOLDER_NAME/.png?raw=true" alt="DESCRIPTION" width="600">
+  <img src="https://github.com/kokchun/assets/blob/main/linux/.png?raw=true" alt="file management" width="600">
 </a>
 
 
@@ -14,12 +14,6 @@ Open up a terminal
 
 - echo - printing text to the terminal, formatting and substituting variables. 
 - man - show the manual of different commands 
-
-
-### Navigation
-- ls - whats here?
-- cd - move around
-- pwd - where am I?
 
 ### File management
 
