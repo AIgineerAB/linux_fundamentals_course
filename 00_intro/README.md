@@ -3,6 +3,7 @@
 ## TODO: intro slides 
 
 - what is Linux, Kernel vs OS
+- distributions
 
 ## TODO: intro video 
 

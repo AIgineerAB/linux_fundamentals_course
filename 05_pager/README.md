@@ -12,6 +12,9 @@
 - man - show the manual of different commands 
 - apropos
 
+example without pager
+- help cd -> shows all text at once
+
 
 ## Other videos 📹
 
