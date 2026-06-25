@@ -5,6 +5,9 @@
 </a>
 
 
+- type to see if built-in or not
+
+- curl to get a book from project gutenburg
 - less
   - search 
   - page up and down
@@ -19,3 +22,5 @@ example without pager
 ## Other videos 📹
 
 ## Read more 👓
+
+- [less - labex](https://labex.io/tutorials/linux-linux-less-command-with-practical-examples-422758)
