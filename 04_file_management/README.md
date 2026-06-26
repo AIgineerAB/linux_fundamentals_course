@@ -31,3 +31,14 @@ Open up a terminal
 ## Other videos 📹
 
 ## Read more 👓
+
+From LabEx
+
+- [mkdir](https://labex.io/tutorials/linux-linux-mkdir-command-with-practical-examples-422804)
+- [touch](https://labex.io/tutorials/linux-linux-touch-command-with-practical-examples-422962)
+- [cp](https://labex.io/tutorials/linux-linux-cp-command-with-practical-examples-422615)
+- [mv](https://labex.io/tutorials/linux-linux-mv-command-with-practical-examples-422832)
+- [rm](https://labex.io/tutorials/linux-linux-rm-command-with-practical-examples-422892)
+- [cat](https://labex.io/tutorials/linux-linux-cat-command-with-practical-examples-422589)
+- [tree](https://labex.io/tutorials/linux-linux-tree-command-with-practical-examples-422966)
+- [rmdir](https://labex.io/tutorials/linux-linux-rmdir-command-with-practical-examples-422893)
