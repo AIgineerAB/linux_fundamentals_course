@@ -1,21 +1,17 @@
 # File management
 
-<a href="" target="_blank">
-  <img src="https://github.com/kokchun/assets/blob/main/linux/.png?raw=true" alt="file management" width="600">
+<a href="https://youtu.be/uTJD9StBuBI" target="_blank">
+  <img src="https://github.com/kokchun/assets/blob/main/linux/file_management.png?raw=true" alt="file management" width="600">
 </a>
 
 
 
-## Familiarize with terminal and bash
-
-Open up a terminal 
-
-### Utilities
+## Utilities
 
 - echo - printing text to the terminal, formatting and substituting variables. 
 - man - show the manual of different commands 
 
-### File management
+## File management
 
 - mkdir - make directories
 - touch - create new files
