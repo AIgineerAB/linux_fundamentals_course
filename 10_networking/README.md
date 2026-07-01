@@ -8,6 +8,11 @@
 
 **part 2 - IP address**
 
+<a href="https://youtu.be/FRKUUCwPpCw" target="_blank">
+  <img src="https://github.com/kokchun/assets/blob/main/linux/ip_address.png?raw=true" alt="ip addresses" width="600">
+</a>
+
+
 
 **part 3 - **
 
