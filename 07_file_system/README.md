@@ -13,3 +13,4 @@
 ## Other videos 📹
 
 ## Read more 👓
+- [A brief overview and history of systemd — the Linux process manager - D. Clinton (2017) medium](https://medium.com/hackernoon/a-brief-overview-and-history-of-systemd-the-linux-process-manager-ca508bee4a33)
