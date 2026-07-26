@@ -70,6 +70,8 @@ journalctl | grep -i kernel | wc -l
 # words, lines, characters in journalctl
 journalctl | wc
 
+# number of errors not related to networks
+journalctl | grep -i error | grep -vi network | wc -l
 ```
 
 ## Other videos 📹
