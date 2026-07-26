@@ -4,7 +4,7 @@
   <img src="https://github.com/kokchun/assets/blob/main/linux/.png?raw=true" alt="file management" width="600">
 </a>
 
-Globbing is shell expansion of wildcard patterns for files, meaning it will replace the pattern with filename that it matches.
+Globbing is shell expansion of wildcard patterns for files, meaning it will replace the pattern with filename that it matches. The shell expansion happens before the command is run.
 
 | pattern | meaning                       |
 | ------- | ----------------------------- |
@@ -15,6 +15,7 @@ Globbing is shell expansion of wildcard patterns for files, meaning it will repl
 | [^abcd] | one character not a,b,c,d     |
 | {a,b,c} | brace expansion - each string |
 | {1..5}  | each value in the range       |
+
 
 
 ## Brace expansion {..}
