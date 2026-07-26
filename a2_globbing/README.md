@@ -69,3 +69,5 @@ mv file*.txt files_dir
 ## Other videos 📹
 
 ## Read more 👓
+
+- [Linux wildcards and globbing explained - D. Panovski (2026) linuxize](https://linuxize.com/post/linux-wildcards-and-globbing/)
