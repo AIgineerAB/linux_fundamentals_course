@@ -18,6 +18,16 @@ Then we'll curl this [Linus Torvalds wikipedia article](https://en.wikipedia.org
 curl -s https://en.wikipedia.org/wiki/Linus_Torvalds | html2text > linus.txt
 ```
 
+## find 
+
+TODO: add text
+
+
+## locate 
+
+TODO: add text
+
+
 ## grep
 
 Now we'll use grep to search this article for various things and go through some useful options for grep.
