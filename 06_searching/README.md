@@ -157,5 +157,7 @@ find / -name "*.pdf" 2>/dev/null | grep secret
 
 ## Read more 👓
 
-- [Linux grep Command with Practical Examples - labex](https://labex.io/tutorials/linux-linux-grep-command-with-practical-examples-422703)
-- [Linux find Command with Practical Examples](https://labex.io/tutorials/linux-linux-find-command-with-practical-examples-422682)
+LabEx tutorials
+- [grep](https://labex.io/tutorials/linux-linux-grep-command-with-practical-examples-422703)
+- [find](https://labex.io/tutorials/linux-linux-find-command-with-practical-examples-422682)
+- [locate](https://labex.io/tutorials/linux-linux-locate-command-with-practical-examples-422765)
