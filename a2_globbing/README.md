@@ -66,6 +66,18 @@ mv file*.txt files_dir
 ```
 
 
+## Substitute old command 
+
+If you have a previous command but you just want to change one command you can use this shortcut here
+
+```bash
+# previous command
+ls file[1-5]*.txt
+
+# want to substitute ls with rm to remove
+^ls^rm 
+```
+
 
 ## Other videos 📹
 
