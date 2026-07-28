@@ -20,12 +20,70 @@ curl -s https://en.wikipedia.org/wiki/Linus_Torvalds | html2text > linus.txt
 
 ## find 
 
-TODO: add text
+Search files with matching your criterias using `find`. It is really flexible for searching the filesystem, but is slower due to traversing disk in real-time.
+
+Here is the basic syntax: 
+
+```bash
+find [path] [expression]
+```
+
+For example 
+
+```bash
+# all files in current directory and recursively its subdirectories
+find . 
+
+# limit depth - 1 gives only this directory
+find . -maxdepth 1
+
+# search from root
+find / -name file1.txt
+
+# find all files with .md using wildcard pattern
+find . -name "*.md"
+
+# find all files with .txt using wildcard pattern
+find . -name "*.txt"
+
+# all directories
+find . -type d
+
+# all files with sizes above 
+find . size +100k
+
+# all files with sizes below
+find . size -100k
+
+# find normal files
+find -type f
+
+# find directories
+find -type d
+```
 
 
 ## locate 
 
-TODO: add text
+Search a pre-indexed database of filenames, which makes it really fast. It needs updatedb to get new cached index, else it might be outdated and not suitable when real-time accuracy is needed.
+
+Start with doing 
+
+```bash
+sudo updatedb
+```
+
+to rebuild the database. 
+
+Here are some examples: 
+
+```bash
+# finds exactly this 
+locate file1.txt
+
+# find all .conf files
+locate "*.conf"
+```
 
 
 ## grep
@@ -83,6 +141,21 @@ journalctl | wc
 # number of errors not related to networks
 journalctl | grep -i error | grep -vi network | wc -l
 ```
+
+Use ls, locate, find and then pipe with grep to filter your lists and search results
+```bash
+# finds .conf files with hardware in it
+locate "*.conf" | grep hardware
+
+# finds all pdf files in the system that have name secret
+find / -name "*.pdf" | grep secret
+
+# previous commands have lots of permission denied so lets redirect them to stderr
+# 2>/dev/null is basically redirecting all stderr to the void, makes them disappear
+find / -name "*.pdf" 2>/dev/null | grep secret
+```
+
+
 
 ## Other videos 📹
 
