@@ -1,7 +1,7 @@
 # Searching and piping
 
-<a href="" target="_blank">
-  <img src="https://github.com/kokchun/assets/blob/main/linux/.png?raw=true" alt="file management" width="600">
+<a href="https://youtu.be/KCgijmoyosU" target="_blank">
+  <img src="https://github.com/kokchun/assets/blob/main/linux/searching_piping.png?raw=true" alt="searching and piping" width="600">
 </a>
 
 ## find
