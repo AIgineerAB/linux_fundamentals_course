@@ -1,7 +1,7 @@
 # Globbing
 
-<a href="" target="_blank">
-  <img src="https://github.com/kokchun/assets/blob/main/linux/.png?raw=true" alt="globbing" width="600">
+<a href="https://youtu.be/D2WwdnjunP4" target="_blank">
+  <img src="https://github.com/kokchun/assets/blob/main/linux/globbing.png?raw=true" alt="globbing" width="600">
 </a>
 
 Globbing is shell expansion of wildcard patterns for files, meaning it will replace the pattern with filename that it matches. The shell expansion happens before the command is run.
