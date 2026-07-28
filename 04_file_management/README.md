@@ -5,6 +5,12 @@
 </a>
 
 
+In Linux/Unix  everything is a file. 
+
+In mac which is based on unix, it inherits everything is a file but also adds proprietary layers on top.
+
+In windows everything is an object, where handles are universal interface.
+
 
 ## Utilities
 
