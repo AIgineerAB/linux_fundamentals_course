@@ -4,35 +4,21 @@
   <img src="https://github.com/kokchun/assets/blob/main/linux/.png?raw=true" alt="file management" width="600">
 </a>
 
-## setup
-
-For this lecture we'll use curl in combination with an external program called html2text. You can install html2text by doing
-
-```bash
-sudo dnf install html2text
-```
-
-Then we'll curl this [Linus Torvalds wikipedia article](https://en.wikipedia.org/wiki/Linus_Torvalds) and then pipe the results to html2text and redirecting the content to linus.txt.
-
-```bash
-curl -s https://en.wikipedia.org/wiki/Linus_Torvalds | html2text > linus.txt
-```
-
-## find 
+## find
 
 Search files with matching your criterias using `find`. It is really flexible for searching the filesystem, but is slower due to traversing disk in real-time.
 
-Here is the basic syntax: 
+Here is the basic syntax:
 
 ```bash
 find [path] [expression]
 ```
 
-For example 
+For example
 
 ```bash
 # all files in current directory and recursively its subdirectories
-find . 
+find .
 
 # limit depth - 1 gives only this directory
 find . -maxdepth 1
@@ -49,7 +35,7 @@ find . -name "*.txt"
 # all directories
 find . -type d
 
-# all files with sizes above 
+# all files with sizes above
 find . size +100k
 
 # all files with sizes below
@@ -62,29 +48,41 @@ find -type f
 find -type d
 ```
 
-
-## locate 
+## locate
 
 Search a pre-indexed database of filenames, which makes it really fast. It needs updatedb to get new cached index, else it might be outdated and not suitable when real-time accuracy is needed.
 
-Start with doing 
+Start with doing
 
 ```bash
 sudo updatedb
 ```
 
-to rebuild the database. 
+to rebuild the database.
 
-Here are some examples: 
+Here are some examples:
 
 ```bash
-# finds exactly this 
+# finds exactly this
 locate file1.txt
 
 # find all .conf files
 locate "*.conf"
 ```
 
+## setup to get some text for grep
+
+For this lecture we'll use curl in combination with an external program called html2text. You can install html2text by doing
+
+```bash
+sudo dnf install html2text
+```
+
+Then we'll curl this [Linus Torvalds wikipedia article](https://en.wikipedia.org/wiki/Linus_Torvalds) and then pipe the results to html2text and redirecting the content to linus.txt.
+
+```bash
+curl -s https://en.wikipedia.org/wiki/Linus_Torvalds | html2text > linus.txt
+```
 
 ## grep
 
@@ -110,17 +108,16 @@ grep -in ^helsinki linus.txt
 grep -ci helsinki linus.txt
 ```
 
-
-## pipe 
+## pipe
 
 Piping | sends the standard output `stdout` from a command directly into standard input `stdin` to another command.
-You already saw piping in the setup where we sent the output of curl into html2text. Here we'll give some more examples 
+You already saw piping in the setup where we sent the output of curl into html2text. Here we'll give some more examples
 
 We'll use `journalctl` command, which prints log entries from the systemd journal. The systemd is the init system handling startup and management of services, networks etc.
 
 ```bash
-# try it first without grep 
-journalctl 
+# try it first without grep
+journalctl
 
 # now lets find errors
 journalctl | grep -i error
@@ -132,7 +129,7 @@ journalctl | grep -ic error
 # check that you get same result
 journalctl | grep -i error | wc -l
 
-# number of lines with kernel 
+# number of lines with kernel
 journalctl | grep -i kernel | wc -l
 
 # words, lines, characters in journalctl
@@ -143,6 +140,7 @@ journalctl | grep -i error | grep -vi network | wc -l
 ```
 
 Use ls, locate, find and then pipe with grep to filter your lists and search results
+
 ```bash
 # finds .conf files with hardware in it
 locate "*.conf" | grep hardware
@@ -155,9 +153,9 @@ find / -name "*.pdf" | grep secret
 find / -name "*.pdf" 2>/dev/null | grep secret
 ```
 
-
-
 ## Other videos 📹
 
 ## Read more 👓
+
 - [Linux grep Command with Practical Examples - labex](https://labex.io/tutorials/linux-linux-grep-command-with-practical-examples-422703)
+- [Linux find Command with Practical Examples](https://labex.io/tutorials/linux-linux-find-command-with-practical-examples-422682)
