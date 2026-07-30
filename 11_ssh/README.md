@@ -36,6 +36,25 @@ ssh <username>@<ip_address>
 This will by default try to open port 22 which the server is listening to. Then it prompts for remote servers password and then you are logged in. 
 
 
+## Change name on remote server
+
+On your host system or client open 
+
+```bash
+nano ~/.ssh/config
+```
+
+and paste in this text
+
+```md
+Host <cool_server_name>
+    HostName <host_ip>
+    User <yourusername>
+    Port 22
+```
+
+Afterwards you can ssh using <cool_server_name> instead of ip address
+
 ## Public and private key
 
 Generate a cryptographic key pair: 
@@ -52,7 +71,7 @@ For extra layer of security, also add a passphrase to your key when prompted.
 Then send the public key to your VM
 
 ```bash
-ssh-copy-id -i ~/.ssh/id_rsa.pub <username>@<ip_address>
+ssh-copy-id -i ~/.ssh/id_rsa.pub <username>@<servername>
 ```
 
 Note that for windows you need to use WSL or git bash to use ssh-copy-id.
@@ -86,7 +105,20 @@ sudo systemctl restart sshd
 
 ## Transfer files 
 
-- scp 
+Use `scp` to securely transfer files from client to server
+
+```bash
+# base syntax
+scp [options] source destination
+
+# example of moving a file from the client to oracle_yt into the path /home/kokchun/Desktop
+scp file_client.txt kokchun@oracle_yt:/home/kokchun/Desktop
+
+# move directories with files 
+scp -r dir1 dir2 kokchun@oracle_yt:/home/kokchun/Desktop
+```
+
+
 - sftp
 
 
