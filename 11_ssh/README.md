@@ -4,11 +4,7 @@
   <img src="https://github.com/kokchun/assets/blob/main/linux/ssh.png?raw=true" alt="file management" width="600">
 </a>
 
-Connect to remote Linux servers in a secure way and transfer files between client and server. In this lecture we'll work with
-
-- ssh
-- symmetric encryption with public and private encryption keys
-- scp to securely transfer files
+Connect to remote Linux servers in a secure way and transfer files between client and server. 
 
 ## Setup on VirtualBox
 
