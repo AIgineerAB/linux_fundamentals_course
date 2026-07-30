@@ -103,7 +103,7 @@ Now restart the sshd (ssh daemon)
 sudo systemctl restart sshd
 ```
 
-## Transfer files 
+## Copying files with scp
 
 Use `scp` to securely transfer files from client to server
 
@@ -114,13 +114,48 @@ scp [options] source destination
 # example of moving a file from the client to oracle_yt into the path /home/kokchun/Desktop
 scp file_client.txt kokchun@oracle_yt:/home/kokchun/Desktop
 
-# move directories with files 
+# copy directories with files from client to server
 scp -r dir1 dir2 kokchun@oracle_yt:/home/kokchun/Desktop
+
+# copy directories with files from server to client
+scp -r kokchun@oracle_yt:/home/kokchun/Desktop/dir1 .
 ```
 
+So scp is a single command copy in and out from remote server. 
 
-- sftp
+## Interactive session with sftp
 
+The command sftp instead opens up an interactive session with the server. You have access to both your local machine and the remote machine. The local commands precedes with an `l` 
+
+
+
+```bash
+# local 
+lpwd 
+lcd
+lls
+
+# remote 
+pwd
+cd
+ls
+
+# download files remote -> local
+get file.txt
+get -r dir
+get -P dir # preserve permission
+mget file1.txt file2.txt
+get rmote.txt local-name.txt
+
+# upload files local -> remote
+put file.txt
+put -r dir
+mput file1.txt file2.txt
+put local.txt remote-name.txt
+
+# end session
+bye
+```
 
 ## Other videos 📹
 
