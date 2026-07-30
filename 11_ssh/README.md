@@ -1,8 +1,20 @@
 # Secure shell - SSH
 
-<a href="" target="_blank">
-  <img src="https://github.com/kokchun/assets/blob/main/linux/ssh.png?raw=true" alt="file management" width="600">
+**part 1 - ssh**
+
+<a href="https://youtu.be/28kq-XYsGno" target="_blank">
+  <img src="https://github.com/kokchun/assets/blob/main/linux/ssh.png?raw=true" alt="ssh" width="600">
 </a>
+
+<br>
+<br>
+
+**part 2 - scp and sftp**
+
+<a href="" target="_blank">
+  <img src="https://github.com/kokchun/assets/blob/main/linux/sftp_scp.png?raw=true" alt="sftp and scp" width="600">
+</a>
+
 
 Connect to remote Linux servers in a secure way and transfer files between client and server. 
 
