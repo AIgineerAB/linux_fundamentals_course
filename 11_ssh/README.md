@@ -60,6 +60,36 @@ Note that for windows you need to use WSL or git bash to use ssh-copy-id.
 Now try to ssh into your VM and you should not need any password to log. Note that if you added passphrase to the key during ssh-keygen step, then you need that passphrase everytime you use your key.
 
 
+## Disable password authentication
+
+This reduces the attack surface as the key much longer than a password and thus is much safer than password. 
+
+Open sshd_config and update `PasswordAuthentication no`
+
+```bash
+sudo nano /etc/ssh/sshd_config
+```
+
+Then do 
+
+```bash
+sudo sshd -t 
+```
+
+to test that the ssh server configuration for errors. If there was no output then it is fine. 
+
+Now restart the sshd (ssh daemon)
+
+```bash
+sudo systemctl restart sshd
+```
+
+## Transfer files 
+
+- scp 
+- sftp
+
+
 ## Other videos 📹
 
 ## Read more 👓
