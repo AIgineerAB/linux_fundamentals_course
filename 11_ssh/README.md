@@ -11,8 +11,8 @@
 
 **part 2 - scp and sftp**
 
-<a href="" target="_blank">
-  <img src="https://github.com/kokchun/assets/blob/main/linux/sftp_scp.png?raw=true" alt="sftp and scp" width="600">
+<a href="https://youtu.be/NB2Dx_6LstM" target="_blank">
+  <img src="https://github.com/kokchun/assets/blob/main/linux/scp_sftp.png?raw=true" alt="sftp and scp" width="600">
 </a>
 
 Connect to remote Linux servers in a secure way and transfer files between client and server.
