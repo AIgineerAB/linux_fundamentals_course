@@ -1,14 +1,13 @@
-# Searching
+# Permissions and ownership
 
 <a href="" target="_blank">
-  <img src="https://github.com/kokchun/assets/blob/main/linux/.png?raw=true" alt="file management" width="600">
+  <img src="https://github.com/kokchun/assets/blob/main/linux/.png?raw=true" alt=" permissions" width="600">
 </a>
 
-
-- grep
-- pipe standard output to grep 
-
-
+- chmod
+- chown
+- permission numbers
+- permission symbols
 
 ## Other videos 📹
 
