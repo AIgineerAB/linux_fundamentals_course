@@ -11,12 +11,12 @@ For this you will be using the following tools:
 
 Prerequisites for this course are:
 
-| **Week** | **Content**                        | **Lectures** | **Exercise** |
-| -------- | ---------------------------------- | ------------ | ------------ |
-| 1        | setup, navigation, file management | 00-05        | 0            |
-| 2        | searching, ssh, permissions        | 06-10        | 1            |
-| 3        | bash scripting, lab intro          | 11-15        | 2, lab       |
-| 4        | bash functions                     | 16           | 3, lab       |
+| **Week** | **Content**                                  | **Lectures** | **Exercise** |
+| -------- | -------------------------------------------- | ------------ | ------------ |
+| 1        | setup, navigation, file management, globbing | 00-05, a2    | 0            |
+| 2        | searching, ssh, permissions                  | 06-10        | 1            |
+| 3        | bash scripting, lab intro                    | 11-15        | 2, lab       |
+| 4        | bash functions                               | 16           | 3, lab       |
 
 
 
