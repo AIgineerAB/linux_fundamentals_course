@@ -24,7 +24,7 @@ ssh-keygen -t ed25519 -C "you@example.com"
 
 You will be prompted with `Enter file in which to save the key (/home/user/.ssh/id_ed25519):`
 
-here type in `/home/your_user/.ssh/github
+here you can just press enter
 
 Then when prompted for passphrase just click enter to skip it for simplicity. 
 
@@ -32,12 +32,12 @@ Now add this key to ssh agent
 
 ```bash
 eval "$(ssh-agent -s)"
-ssh-add ~/.ssh/github
+ssh-add ~/.ssh/id_ed25519.pub
 ```
 
 Then finally print out the public key that we will paste into github
 ```bash
-cat ~/.ssh/github
+cat ~/.ssh/id_ed25519.pub
 ```
 
 Now paste it and go into github in the browser and click settings -> ssh and gpg keys and add it to there. 
