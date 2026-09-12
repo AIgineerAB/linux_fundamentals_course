@@ -32,8 +32,9 @@ Choose full version as it contains everything needed for local installations.
 Example of VM size, it can probably work with less memory, less CPU cores and less storage, but try to keep to a minimum of 
 
 - memory: 2 CPU cores
-- RAM: 6 GB
-- 40 GB 
+- RAM: 4 GB
+- 30 GB 
+- 128mb video memory
 
 <img src="https://github.com/kokchun/assets/blob/main/linux/vm_size.png?raw=true" alt="setup guest OS" width="600">
 

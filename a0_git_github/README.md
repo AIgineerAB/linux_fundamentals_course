@@ -69,15 +69,6 @@ git push
 ```
 
 
-
-
-
-
-
-
-Generate an SSH
-
-
 ## Other videos 📹
 
 ## Read more 👓
