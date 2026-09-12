@@ -1,7 +1,18 @@
 # Git and github
 
-<a href="" target="_blank">
-  <img src="https://github.com/kokchun/assets/blob/main/linux/.png?raw=true" alt="file management" width="600">
+**Part 1 - git and github theory**
+
+<a href="https://www.youtube.com/watch?v=bbJDBTAMtm8" target="_blank">
+  <img src="https://github.com/kokchun/assets/blob/main/git_github/git_theory.png?raw=true" alt="file management" width="600">
+</a>
+
+<br>
+<br>
+
+**Part 2 - setting up git and github on Oracle Linux**
+
+<a href="https://youtu.be/CwDWVg-FpSo" target="_blank">
+  <img src="https://github.com/kokchun/assets/blob/main/git_github/setup_ssh.png?raw=true" alt="file management" width="600">
 </a>
 
 This is a short introduction to git and github 
