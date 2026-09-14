@@ -4,12 +4,12 @@ In this exercise, you get to familiarize yourself with Linux, the terminal, the 
 
 These exercises require that you have already setup Linux.
 
-> [!tip] it's good if you work with a git repository when doing these exercises. You could write down the answers on markdown files to document your work so that you can come back and reference it in the future. Also it's good to practice working with version control
+> [!TIP] it's good if you work with a git repository when doing these exercises. You could write down the answers on markdown files to document your work so that you can come back and reference it in the future. Also it's good to practice working with version control
 
-> [!tip] in the beginning of your terminal adventure it could be good to have the GUI opened at the same time to see what each command does
+> [!TIP] in the beginning of your terminal adventure it could be good to have the GUI opened at the same time to see what each command does
 
 
-> [!tip] throughout this course it is good to familiarize yourself with the text editors that are preinstalled to linux
+> [!TIP] throughout this course it is good to familiarize yourself with the text editors that are preinstalled to linux
 
 
 ## 0. Simple navigation
