@@ -1,18 +1,22 @@
-# Exercise 0 -
+# Exercise 0 - First glance at Linux
 
-In this exercise, you get to familiarize yourself with ...
+In this exercise, you get to familiarize yourself with Linux, the terminal, the unix shell and bash.
 
-## 0. practical exercise
+These exercises require that you have already setup Linux.
 
-DESCRIPTION
+> [!NOTE] it's good if you work with a git repository when doing these exercises. You could write down the answers on markdown files to document your work so that you can come back and reference it in the future. Also it's good to practice working with version control
 
-&nbsp; a)
+## 0. Simple navigation
 
-&nbsp; b)
+Open up a terminal and do the following
 
-&nbsp; c)
+&nbsp; a) Check where you are with `pwd`
 
-&nbsp; d)
+&nbsp; b) Check what files exists in your current directory 
+
+&nbsp; c) Go up a directory and repeat a) and b)
+
+&nbsp; d) 
 
 &nbsp; e)
 
@@ -32,13 +36,27 @@ DESCRIPTION
 
 ## 2. Theory questions
 
-DESCRIPTION
+&nbsp; a) We usually open up a terminal to write commands, but then we talk about the shell. What are the different roles of the terminal and the shell?
 
-&nbsp; a)
+&nbsp; b) Why would you use a shell to control the computer, when there is also a GUI that is simple to use? 
 
-&nbsp; b)
 
-&nbsp; c)
+&nbsp; c) How does shell, bash and terminal relate to each other?
+
+
+&nbsp; d) Describe the most common commands for navigation in bash?
+
+
+&nbsp; e) 
+
+
+&nbsp; f) The CPU is said to be able to operate in kernel mode and user mode. What are the main purposes of each of the modes? 
+
+
+&nbsp; g) 
+
+
+
 
 ## Glossary
 

@@ -27,6 +27,8 @@ h # left
 j # up
 k # down
 l # right
+H # to the top 
+G # to the bottom
 ```
 
 
@@ -65,6 +67,11 @@ A few examples
 10k # junmps up 10 lines
 3o # open new line below in insert mode then repeat 3 times
 ```
+
+## Undo
+
+Sometimes you need to go back so just click `u` in normal mode to undo
+
 
 ## Other videos 📹
 

@@ -6,26 +6,26 @@
   <img src="https://github.com/kokchun/assets/blob/main/linux/.png?raw=true" alt="file management" width="600">
 </a>
 
-<br>
-<br>
 
-**part 2 - variables, I/O**
+## Create a file
 
-<a href="" target="_blank">
-  <img src="https://github.com/kokchun/assets/blob/main/linux/.png?raw=true" alt="file management" width="600">
-</a>
+Start with creating an empty file without any suffixes e.g. 
 
-<br>
-<br>
+```bash
+# if you want to use other editor you could just change vim to that editor
+vim test_script
+```
 
-**part 3 - control structures**
+Then in the first line add a shebang
 
-<a href="" target="_blank">
-  <img src="https://github.com/kokchun/assets/blob/main/linux/.png?raw=true" alt="file management" width="600">
-</a>
+### add a shebang #!
 
-<br>
-<br>
+This is the shebang line that you should have in a bash script. By having this line, you tell the system to use bash to execute the script.
+
+```bash
+#!/usr/bin/env bash
+```
+
 
 
 ## Other videos 📹
