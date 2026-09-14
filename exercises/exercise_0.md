@@ -50,17 +50,52 @@ Go into your local repository with bash
 │   └── README.md
 ```
 
-Note that you could also have other 
+Commit and push these to your github 
+
+>[!NOTE] you should add more directories and files when needed to your repo 
+
+&nbsp; b) Open up exercise0/README.md and add some documentation on how you solved different tasks.
+
+&nbsp; c) Navigate to exercise0 and create 3 files called file1.md, file2.md, file3.md. Use globbing to achieve this
+
+&nbsp; d) Create a directory called files and move these files into this directory
+
+&nbsp; e) Move file2.md out to exercise0
+
+&nbsp; f) Put in the text "Hello file2" into file2.md. Use `echo` together with output redirection `>>` 
+
+&nbsp; g) Copy file2.md and call the new copy file2.txt
+
+&nbsp; h) Output the content from both the files
+
+&nbsp; i) Lets cleanup by removing all files in exercise0 except for README.md
+
+&nbsp; j) Use a terminal text editor such as nano or vim to document these questions on README.md
+
+
+## 2. Searching text
+
+Download this text about [GNU/Linux from project gutenberg](https://www.gutenberg.org/cache/epub/6527/pg6527.txt). Use `curl` and save it in a file called `linux.txt`.
+
+&nbsp; a) Use a pager on this text file and try the following:
+- scroll page down with space and b to do page up
+- / to search for a string e.g. search for linux 
+- n to go forward in search and b to go backwards
+- jk to scroll up and down
+- q to quit
 
 &nbsp; b)
 
 &nbsp; c)
 
-&nbsp; d)
 
-&nbsp; e)
 
-## 2. Theory questions
+
+
+TODO: more exercises ....
+
+
+## 5. Theory questions
 
 &nbsp; a) We usually open up a terminal to write commands, but then we talk about the shell. What are the different roles of the terminal and the shell?
 
@@ -83,6 +118,9 @@ Note that you could also have other
 
 
 &nbsp; h) What is pager like `less` used for? Isn't `cat` enough for outputting text from a file? 
+
+
+&nbsp; i) What are the differences between git and github?
 
 
 
