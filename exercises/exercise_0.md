@@ -84,18 +84,23 @@ Download this text about [GNU/Linux from project gutenberg](https://www.gutenber
 - jk to scroll up and down
 - q to quit
 
-&nbsp; b)
+&nbsp; b) Use grep to search for debian 
 
-&nbsp; c)
+&nbsp; c) Now search for debian and Debian (case insensitive search)
+
+&nbsp; d) Search for debian and redirect the output to a file called debian.txt
+
+&nbsp; e) Search for linux case insensitive and then pipe the output to further refine the search to search for the word partition
+
+&nbsp; f) Search for GNU and then count the number of lines where GNU occur. 
+
+&nbsp; g) Count number of time the word "server" appear
 
 
+&nbsp; h) Count number of time the word starts with "server" appear case insensitive ex servers, Servers, Server, server
 
 
-
-TODO: more exercises ....
-
-
-## 5. Theory questions
+## 3. Theory questions
 
 &nbsp; a) We usually open up a terminal to write commands, but then we talk about the shell. What are the different roles of the terminal and the shell?
 
@@ -123,24 +128,39 @@ TODO: more exercises ....
 &nbsp; i) What are the differences between git and github?
 
 
-
-
-
-
-
 ## Glossary
 
 Fill in this table either by copying this into your own markdown file or copy it into a spreadsheet if you feel that is easier to work with.
 
-| terminology | explanation |
-| ----------- | ----------- |
-|             |             |
-|             |             |
-|             |             |
-|             |             |
-|             |             |
-|             |             |
-|             |             |
-|             |             |
-|             |             |
-|             |             |
+| terminology          | explanation |
+| -------------------- | ----------- |
+| linux                |             |
+| debian               |             |
+| virtual box          |             |
+| unix                 |             |
+| RHEL                 |             |
+| bash                 |             |
+| shell                |             |
+| terminal             |             |
+| GUI                  |             |
+| globbing             |             |
+| grep                 |             |
+| ls                   |             |
+| pwd                  |             |
+| cd                   |             |
+| echo                 |             |
+| cat                  |             |
+| input redirection  < |             |
+| output redirection > |             |
+| virtual machine      |             |
+| virtualbox           |             |
+| ssh                  |             |
+| github               |             |
+| git                  |             |
+| pager                |             |
+| less                 |             |
+| man                  |             |
+| pipe                 |             |
+| find                 |             |
+| locate               |             |
+|                      |             |
