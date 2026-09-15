@@ -108,6 +108,7 @@ Download this text about [GNU/Linux from project gutenberg](https://www.gutenber
 
 &nbsp; a) We usually open up a terminal to write commands, but then we talk about the shell. What are the different roles of the terminal and the shell?
 
+
 &nbsp; b) Why would you use a shell to control the computer, when there is also a GUI that is simple to use? 
 
 
