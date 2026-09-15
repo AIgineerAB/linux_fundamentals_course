@@ -26,6 +26,11 @@ This is the shebang line that you should have in a bash script. By having this l
 #!/usr/bin/env bash
 ```
 
+### Syntax check 
+
+```bash
+bash -n script
+```
 
 
 ## Other videos 📹
