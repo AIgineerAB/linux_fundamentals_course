@@ -4,9 +4,7 @@
   <img src="https://github.com/kokchun/assets/blob/main/linux/.png?raw=true" alt="file management" width="600">
 </a>
 
-
 It is good to learn a text editor, and if you are interested, you can learn vim. It has a somewhat high learning curve, but once you get used to it, you will be able to move around quite nicely.
-
 
 ## Start vim 
 
@@ -27,8 +25,13 @@ h # left
 j # up
 k # down
 l # right
-H # to the top 
+H # scroll to the top visible screen
 G # to the bottom
+gg # to the top
+w # to next word
+b # back to the previous word
+ctrl+d # scroll down half page
+ctrl+b # scroll up 
 ```
 
 
