@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+for dir in */; do
+	echo $dir
+	echo "#" > "${dir}/README.md"
+done
