@@ -27,6 +27,19 @@
 <br>
 <br>
 
+## Conditionals
+
+- true is a command and has value 0
+- false is a command that has value
+
+[[ ]] is a conditional expression and does testing 
+
+example 
+```bash
+if [[ -f script ]]; then 
+  echo 'script is a regular file'
+fi 
+```
 
 ## Other videos 📹
 
