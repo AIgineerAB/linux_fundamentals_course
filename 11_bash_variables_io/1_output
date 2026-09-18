@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+
+# assign 'Kokchun' to variable name, note no space between variable and the value
+name='Kokchun'
+
+# 'text'  single quote for literal values of each characters within the quote
+echo 'Hello BASH - the Bourne Again Shell'
+
+echo 'Hello $name with single quotes'
+
+# "text" double quote similar to single quote, but the shell will interpret special characters such as $ \ `` ! 
+echo "Hello $name with double quotes"
+
+# printf is format string, here printing a newline
+printf "\n"
+
+# printf - %s for strings, %d for integers, %f for float, \n for newlines
+printf "Name: %s\nAge: %d\n" $name 35

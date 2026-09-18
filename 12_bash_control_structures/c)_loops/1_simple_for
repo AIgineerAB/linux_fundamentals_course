@@ -12,3 +12,15 @@ done
 for i in {1..5}; do 
 	echo "$i"
 done 
+
+# doesn't give the range
+end=5
+for i in {1..$end}; do 
+	echo "$i"
+done 
+
+# use C-style for-loop instead if having variable
+end=5
+for ((i=0; i<end; i++)); do
+	echo "$((i*2))"
+done
