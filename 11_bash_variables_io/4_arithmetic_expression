@@ -22,3 +22,8 @@ echo "num1 after num1++ $num1"
 
 ((num1++))
 echo "num1++ again: $num1"
+
+
+# arithmetic expression using let command
+let x=3+7
+echo "x = $x"
