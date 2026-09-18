@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+
+# -p for prompting the user
+read -p "Enter your name: " name
+echo "Hello $name"
+
+# -s for silent input
+read -sp 'Enter your password: ' password
+echo # newline
+echo "You entered $password"
+
