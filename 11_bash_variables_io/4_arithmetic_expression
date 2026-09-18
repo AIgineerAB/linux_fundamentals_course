@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+
+# arithmetic expression
+echo "5*2 = $((5 * 2))"
+
+num1=5
+num2=3
+
+echo "num1 = $num1"
+echo "num2 = $num2"
+
+# different arithmetic evaluation with variables
+echo "Sum: $((num1 + num2))"
+echo "Diff: $((num1 - num2))"
+echo "Product: $((num1 * num2))"
+echo "Quotient: $((num1 / num2))"
+echo "Remainder: $((num1 % num2))"
