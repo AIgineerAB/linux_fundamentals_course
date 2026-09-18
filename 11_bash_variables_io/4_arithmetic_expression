@@ -9,9 +9,16 @@ num2=3
 echo "num1 = $num1"
 echo "num2 = $num2"
 
-# different arithmetic evaluation with variables
+echo "Arithmetic expressions with variables"
 echo "Sum: $((num1 + num2))"
 echo "Diff: $((num1 - num2))"
 echo "Product: $((num1 * num2))"
 echo "Quotient: $((num1 / num2))"
 echo "Remainder: $((num1 % num2))"
+
+
+echo "num1++ (post-increment): $((num1++))"
+echo "num1 after num1++ $num1"
+
+((num1++))
+echo "num1++ again: $num1"
