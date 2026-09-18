@@ -1,0 +1,24 @@
+#!/usr/bin/env bash
+
+# output redirection to notes.md from standard output 1 
+echo '# Input and output' > notes.md
+
+# output redirection but appending instead of replacing
+echo 'This notes here is about I/O in bash' >> notes.md
+
+# heredoc to write multiple lines of text and output redirect to notes.md
+cat >> notes.md <<EOF
+
+## Standard streams in bash
+
+- standard input 0 -> input to a command
+- standard output 1 -> normal command output
+- standard error 2 -> error message
+
+EOF
+
+
+echo "## Files in this folder" >> notes.md
+echo >> notes.md
+
+tree >> notes.md
