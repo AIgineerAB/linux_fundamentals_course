@@ -27,3 +27,9 @@ echo "num1++ again: $num1"
 # arithmetic expression using let command
 let x=3+7
 echo "x = $x"
+
+# floating point arithmetic
+PI=3.1415
+radius=2
+circle_area=$(echo "$PI * $radius^2" | bc) # use the bc program
+echo "circle area = $circle_area"
