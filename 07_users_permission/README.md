@@ -10,7 +10,7 @@ We won't go into details on users in this lecture, but to illustrate a multiuser
 
 ```bash
 # adds a user and a home directory for that user
-sudo passwd -m username
+sudo useradd -m username
 
 # creates a password for that user
 sudo passwd username 
