@@ -8,28 +8,61 @@ These exercises require that you have already setup Linux.
 > it's good if you work with a git repository when doing these exercises. You could write down the answers on markdown files to document your work so that you can come back and reference it in the future. Also it's good to practice working with version control
 
 > [!TIP]
->  in the beginning of your terminal adventure it could be good to have the GUI opened at the same time to see what each command does
-
+> ssh into your VM to work with these exercises
 
 > [!TIP]
 >  throughout this course it is good to familiarize yourself with the text editors that are preinstalled to linux
 
+## 0. Square
 
-## 0. Bash script to create a folder structure
+Create a program bash script that prompts the user for a side and then calculates and outputs the perimeter and area. Example
 
-Create a shell script called create initial template folder structure
+```bash
+Enter a side for square: 2
+A square with side 2 has perimeter: 8 and area: 4
+```
 
-&nbsp; a) 
+## 1. Rectangle
 
-&nbsp; b)
+Similar as above but prompt for length and width
 
-&nbsp; c)
+## 2. Circle
 
-&nbsp; d)
+Similar as above but prompt for radius. Also check if the circle is a unit circle, i.e. with radius 1. 
 
-&nbsp; e)
+## 3. Take in argument
 
-&nbsp; f)
+Modify the scripts above to take in argument directly when executing the script rather than prompting the users.
+
+For example 
+
+```bash
+./square_arg 2
+A square with side 2 has perimeter: 8 and area: 4
+```
+
+```bash
+ ./circle_arg 1
+Perimeter of circle is: 6.2830
+Area of circle is: 3.1415
+It is a unit circle
+```
+
+Also check give error if no argument was given
+
+For example 
+
+```bash
+ ./circle_arg 
+ an argument for the radius is required
+```
+
+
+## 5. Bash script to create a folder structure
+
+Create a shell script called create_repo_template that creates a template skeleton for an empty github repo 
+
+It should create the following file structure
 
 
 

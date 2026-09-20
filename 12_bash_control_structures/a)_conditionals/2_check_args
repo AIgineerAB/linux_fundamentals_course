@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+
+
+if [[ $# -eq 0 ]]; then
+	echo "Please provide one argument for your name"
+	exit 1
+fi 
+
+echo "Number of args provided: $#"
+
+echo "Hello $1"
