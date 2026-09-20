@@ -68,7 +68,7 @@ Generate a cryptographic key pair:
 - public key - verify
 
 ```bash
-ssh-keygen -t rsa -b 4096
+ssh-keygen -t ed_id25519 -C your_email
 ```
 
 For extra layer of security, also add a passphrase to your key when prompted.
@@ -76,7 +76,7 @@ For extra layer of security, also add a passphrase to your key when prompted.
 Then send the public key to your VM
 
 ```bash
-ssh-copy-id -i ~/.ssh/id_rsa.pub <username>@<servername>
+ssh-copy-id -i ~/.ssh/id_ed25519.pub <username>@<servername>
 ```
 
 Note that for windows you need to use WSL or git bash to use ssh-copy-id.

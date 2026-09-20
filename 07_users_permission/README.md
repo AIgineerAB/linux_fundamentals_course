@@ -4,35 +4,73 @@
   <img src="https://github.com/kokchun/assets/blob/main/linux/.png?raw=true" alt=" permissions" width="600">
 </a>
 
+## Create a user
+
+We won't go into details on users in this lecture, but to illustrate a multiuser system we need to create a user
+
+```bash
+# adds a user and a home directory for that user
+sudo passwd -m username
+
+# creates a password for that user
+sudo passwd username 
+```
+
+
+Check users in your system 
+```bash
+cat /etc/passwd | grep home
+```
+
+Delete a user and their home directory 
+```bash
+sudo userdel -r username
+```
+
 
 ## View file permissions
 ```bash
-# long listing
-ls -l   
-
-ls -l /etc/ssh/sshd_config
-# -rw-------. 1 root root 3672 Sep  8 18:44 /etc/ssh/sshd_config
+# create a file called script 
+nano script
 ```
 
-### Output
+Then add the following into that file 
 
-First character (- in this case) is the file type.  Then follows the permissions `rw-------` and then follows dot ., which is extended attributes. Extended attributes means there is extra metadata such as security labels attached to this file.
+```bash 
+#!/usr/bin/env bash
 
-**permission labels**
+name='Coolname'
+echo "Hello $name"
+```
 
-- owner: rw-
-- group: ---
-- others: --- 
+Check file permission 
 
-Here owner has read and write, group and others have no permissions to this file.
+```bash 
+ls -l 
+```
+
+## Change the owner 
+
+Change the owner to David
+
+```bash
+sudo chown David script
+```
+
+Now check long listing and you will see the ownership has changed to David 
+```bash
+ls -l 
+```
+
+## Change permission 
+
+```bash
+# gives execute for users, group and owner
+chmod +x script 
+```
+note not possible if David owns this script. You can chmod using sudo to give yourself root permissions
 
 
-
-
-- chmod
-- chown
-- permission numbers
-- permission symbols
 
 ## Other videos 📹
 
