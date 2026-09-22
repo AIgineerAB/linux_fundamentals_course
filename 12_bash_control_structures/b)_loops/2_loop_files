@@ -1,0 +1,20 @@
+#!/usr/bin/env bash
+
+echo "Markdown files in this folder"
+for file in *; do
+	if [[ $file == *.md ]]; then
+		echo "Markdown file: $file"
+	fi
+done
+
+mkdir -p assets 
+touch assets/file{1..5}.txt
+touch assets/file{1..5}.md
+
+echo "Files in directory assets"
+for file in assets/*.txt; do
+	if [[ $file == *.txt ]]; then 
+		echo "Text file: $file"
+	fi
+done
+	
