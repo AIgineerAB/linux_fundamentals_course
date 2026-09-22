@@ -1,0 +1,21 @@
+#!/usr/bin/env bash
+
+
+filename="cool.png"
+
+if [[ $filename == *.txt ]]; then 
+	echo "$filename is a txt file"
+elif [[ $filename == *.png ]]; then 
+	echo "$filename is a png file"
+fi 
+
+
+if [[ $filename == *oo* ]]; then
+	echo "$filename contains 'oo'"
+fi
+
+grade="B"
+
+if [[ $grade == [ABC] ]]; then
+	echo "$grade is a Good grade"
+fi
