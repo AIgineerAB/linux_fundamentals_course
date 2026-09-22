@@ -34,3 +34,13 @@ if [[ $smaller_number > 42 ]]; then
 	echo "$smaller_number > 42"
 	echo "This is not True, note that it does string comparison"
 fi
+
+
+a=100
+b=99
+
+if [[ $a > $b ]]; then
+    echo "a > b (this is WRONG output based on string compare)"
+else
+    echo "a is NOT > b"
+fi
