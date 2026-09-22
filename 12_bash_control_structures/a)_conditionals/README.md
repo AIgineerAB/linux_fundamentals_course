@@ -1,5 +1,18 @@
 # Conditionals 
 
+## Test operators
+
+| operator | meaning          |
+| -------- | ---------------- |
+| -eq      | equal            |
+| -ne      | not equal        |
+| -gt      | greater than     |
+| -lt      | less than        |
+| -ge      | greater or equal |
+| -le      | less or equal    |
+|          |                  |
+
+
 ## Exit status
 
 Every command in bash returns a numeric exit status (return code) when it finishes running. 

@@ -1,0 +1,36 @@
+#!/usr/bin/env bash
+
+age=17
+if [[ $age -le 18 ]]; then
+	echo "you may not enter"
+fi
+
+score=56
+
+if [[ $score -ge 90 ]]; then
+	echo "Grade A"
+elif [[ $score -ge 80 ]]; then
+	echo "Grade B"
+elif [[ $score -ge 70 ]]; then
+	echo "Grade C"
+elif [[ $score -ge 60 ]]; then
+	echo "Grade D"
+elif [[ $score -ge 50 ]]; then
+	echo "Grade E"
+else
+	echo "Grade F"
+fi
+
+cool_number=44
+# actually this does string comparison
+if [[ $cool_number > 42 ]]; then
+	echo "$cool_number > 42"
+fi
+
+
+smaller_number=8
+# compares first character: '8' > '4' 
+if [[ $smaller_number > 42 ]]; then
+	echo "$smaller_number > 42"
+	echo "This is not True, note that it does string comparison"
+fi
