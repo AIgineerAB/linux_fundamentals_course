@@ -29,7 +29,7 @@ Then to split it further vertically like this figure do `ctrl+b "`
   <br>
   To jump between terminal windows do `ctrl+b q <number>` for example `ctrl+b q 1` to jump to top right. 
 
-
   <img src="https://github.com/kokchun/assets/blob/main/linux/tmux_navigation.png?raw=true" alt="tmux video" width=500/>
 
 
+Also possible to navigate around using `ctrl+b arrowkey`
