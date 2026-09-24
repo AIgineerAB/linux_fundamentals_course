@@ -43,7 +43,7 @@ Now add this key to ssh agent
 
 ```bash
 eval "$(ssh-agent -s)"
-ssh-add ~/.ssh/id_ed25519.pub
+ssh-add ~/.ssh/id_ed25519
 ```
 
 Then finally print out the public key that we will paste into github
