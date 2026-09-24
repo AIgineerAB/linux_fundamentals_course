@@ -24,7 +24,7 @@ To split into two vertical panes do `ctrl+b %`.
 Then to split it further vertically like this figure do `ctrl+b "`
 
 
-  <img src="https://github.com/kokchun/assets/blob/main/linux/tmux_3_layout.png?raw=true" alt="tmux video"width=500/>
+  <img src="https://github.com/kokchun/assets/blob/main/linux/tmux_3_layout.png?raw=true" alt="tmux video" width=500/>
   
   <br>
   To jump between terminal windows do `ctrl+b q <number>` for example `ctrl+b q 1` to jump to top right. 
