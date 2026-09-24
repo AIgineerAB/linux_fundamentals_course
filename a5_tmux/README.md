@@ -3,7 +3,7 @@
 TODO: video
 
 <a href="" target="_blank">
-  <img src="https://github.com/kokchun/assets/blob/main/linux/.png?raw=true" alt="tmux video"
+  <img src="https://github.com/kokchun/assets/blob/main/linux/.png?raw=true" alt="tmux video"/>
 </a>
 
 ## setup tmux
