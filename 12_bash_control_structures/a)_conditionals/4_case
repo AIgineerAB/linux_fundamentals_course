@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+filename="cool.png"
+
+case "$filename" in
+	*.txt) echo "$filename is a text file";;
+	*.png|*.jpeg|*.jpg) echo "$filename is an image";;
+	*) echo "another file format";;
+esac
