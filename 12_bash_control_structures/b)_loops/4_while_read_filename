@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 
+# IFS - internal field separator -> separates space, tabs and newliness
 while IFS= read -r filename; do
 	if [[ -f "$filename" ]]; then
 		echo "$filename exists"
