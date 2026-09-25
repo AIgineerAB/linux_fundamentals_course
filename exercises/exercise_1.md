@@ -60,74 +60,81 @@ For example
 
 ## 5. Bash script to create a folder structure
 
-Create a shell script called create_repo_template that creates a template skeleton for an empty github repo 
+Create a shell script called create_template that creates a template skeleton for an empty github repo 
 
 It should create the following file structure
 
+```bash
+.
+├── create_template
+├── dirs.txt
+└── template
+    ├── 00_intro
+    │   └── README.md
+    ├── 01_setup
+    │   └── README.md
+    ├── 02_nav
+    │   └── README.md
+    └── 03_bash
+        └── README.md
+```
+
+Create a file called dirs.txt which contains 
+
+```
+00_intro 01_setup 02_nav 03_bash
+```
+
+Now run the script using 
+
+```bash
+./create_template $(cat dirs.txt)
+```
 
 
-## 3. Theory questions
-
-&nbsp; a) We usually open up a terminal to write commands, but then we talk about the shell. What are the different roles of the terminal and the shell?
 
 
-&nbsp; b) Why would you use a shell to control the computer, when there is also a GUI that is simple to use? 
+## 6. Theory questions
 
+a) What is a bash script? 
 
-&nbsp; c) How does shell, bash and terminal relate to each other?
+b) What is the shebang line for bash and what is the purpose of it
 
+c) Why can't you normally not execute a bash script directly. How to modify so that you can execute it 
 
-&nbsp; d) Describe the most common commands for navigation in bash?
+d) How does if-statement differs from case? 
 
+e) What is the output of `echo $((4/2))`
 
-&nbsp; e) Is a directory a file in Linux?
-
-
-&nbsp; f) The CPU is said to be able to operate in kernel mode and user mode. What are the main purposes of each of the modes? 
-
-
-&nbsp; g) Which other shells than bash exists?
-
-
-&nbsp; h) What is pager like `less` used for? Isn't `cat` enough for outputting text from a file? 
-
-
-&nbsp; i) What are the differences between git and github?
-
+f) What is the output of `echo $((5/2))` and why? How to make it get the correct output?
 
 ## Glossary
 
 Fill in this table either by copying this into your own markdown file or copy it into a spreadsheet if you feel that is easier to work with.
 
-| terminology          | explanation |
-| -------------------- | ----------- |
-| linux                |             |
-| debian               |             |
-| virtual box          |             |
-| unix                 |             |
-| RHEL                 |             |
-| bash                 |             |
-| shell                |             |
-| terminal             |             |
-| GUI                  |             |
-| globbing             |             |
-| grep                 |             |
-| ls                   |             |
-| pwd                  |             |
-| cd                   |             |
-| echo                 |             |
-| cat                  |             |
-| input redirection  < |             |
-| output redirection > |             |
-| virtual machine      |             |
-| virtualbox           |             |
-| ssh                  |             |
-| github               |             |
-| git                  |             |
-| pager                |             |
-| less                 |             |
-| man                  |             |
-| pipe                 |             |
-| find                 |             |
-| locate               |             |
-|                      |             |
+| terminology  | explanation |
+| ------------ | ----------- |
+| bc           |             |
+| shebang      |             |
+| bash         |             |
+| stdin        |             |
+| stdout       |             |
+| if statement |             |
+| case         |             |
+| for          |             |
+| while        |             |
+| conditional  |             |
+| $#           |             |
+| $@           |             |
+| $1           |             |
+| arguments    |             |
+| ./           |             |
+| chmod        |             |
+| chown        |             |
+| tmux         |             |
+| PS1          |             |
+| clobbering   |             |
+| >            |             |
+| >>           |             |
+|              |             |
+|              |             |

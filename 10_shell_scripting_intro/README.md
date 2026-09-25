@@ -1,5 +1,6 @@
 # Intro to bash scripting
 
+## TODO video
 **part 1 - theory about bash and shells**
 
 <a href="" target="_blank">
