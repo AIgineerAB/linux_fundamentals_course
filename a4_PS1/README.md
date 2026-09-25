@@ -1,9 +1,7 @@
 # PS1 variable - prompt string
 
-TODO: video
-
-<a href="" target="_blank">
-  <img src="https://github.com/kokchun/assets/blob/main/linux/.png?raw=true" alt="file management" width="600"/>
+<a href="https://youtu.be/p1bctzY1Uc4" target="_blank">
+  <img src="https://github.com/kokchun/assets/blob/main/linux/PS1_variable.png?raw=true" alt="file management" width="600"/>
 </a>
 
 ## Configure PS1
