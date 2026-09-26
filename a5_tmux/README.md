@@ -1,9 +1,7 @@
 # tmux - a terminal multiplexer
 
-TODO: video
-
-<a href="" target="_blank">
-  <img src="https://github.com/kokchun/assets/blob/main/linux/.png?raw=true" alt="tmux video"/>
+<a href="https://youtu.be/dUUPOnkc74Q" target="_blank">
+  <img src="https://github.com/kokchun/assets/blob/main/linux/tmux.png?raw=true" alt="tmux video"/>
 </a>
 
 ## setup tmux
