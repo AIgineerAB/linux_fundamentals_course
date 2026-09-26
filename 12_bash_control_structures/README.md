@@ -11,8 +11,8 @@
 
 **part 2 - case statement**
 
-<a href="" target="_blank">
-  <img src="https://github.com/kokchun/assets/blob/main/linux/.png?raw=true" alt="case" width="600">
+<a href="https://youtu.be/d4XMbu_xtEU" target="_blank">
+  <img src="https://github.com/kokchun/assets/blob/main/linux/case.png?raw=true" alt="case" width="600">
 </a>
 
 <br>
