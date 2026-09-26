@@ -3,7 +3,7 @@
 **part 1 - conditionals - if-statement**
 
 <a href="https://youtu.be/vkE_GN3tV4Y" target="_blank">
-  <img src="https://github.com/kokchun/assets/blob/main/linux/conditionals.png?raw=true" alt="" width="600">
+  <img src="https://github.com/kokchun/assets/blob/main/linux/conditionals.png?raw=true" alt="conditionals and if" width="600">
 </a>
 
 <br>
@@ -12,7 +12,7 @@
 **part 2 - case statement**
 
 <a href="" target="_blank">
-  <img src="https://github.com/kokchun/assets/blob/main/linux/.png?raw=true" alt="" width="600">
+  <img src="https://github.com/kokchun/assets/blob/main/linux/.png?raw=true" alt="case" width="600">
 </a>
 
 <br>
