@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+# we will use a program called inotifywait that waits for events
+# install it with sudo dnf install inotifywait
+echo $PWD
+
+inotifywait -m -e close_write -e moved_to --format "%f" "$PWD" | while
+read -r filename; do 
+	echo "$filename"
+done
