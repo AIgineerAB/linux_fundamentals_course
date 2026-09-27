@@ -29,7 +29,7 @@
 
 **part 4 - while loop**
 
-<a href="" target="_blank">
+<a href="https://youtu.be/BUNmRtLhMsU" target="_blank">
   <img src="https://github.com/kokchun/assets/blob/main/linux/while_loop.png?raw=true" alt="" width="600">
 </a>
 
