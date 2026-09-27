@@ -18,7 +18,7 @@
 <br>
 <br>
 
-**part 3 - loops - for, while, until**
+**part 3 - for loop**
 
 <a href="https://youtu.be/9jwA1_FD6mA" target="_blank">
   <img src="https://github.com/kokchun/assets/blob/main/linux/for_loop.png?raw=true" alt="" width="600">
@@ -26,6 +26,12 @@
 
 <br>
 <br>
+
+**part 4 - while loop**
+
+<a href="" target="_blank">
+  <img src="https://github.com/kokchun/assets/blob/main/linux/while_loop.png?raw=true" alt="" width="600">
+</a>
 
 ## Conditionals
 
