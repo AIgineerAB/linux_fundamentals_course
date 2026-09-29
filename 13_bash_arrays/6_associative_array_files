@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+
+declare -A file_type
+
+for f in assets/*; do 
+  if [[ -d "$f" ]]; then
+      file_type["$f"]="directory"
+  elif [[ -x "$f" ]]; then 
+      file_type["$f"]="executable"
+  else
+      file_type["$f"]="regular file"
+  fi
+done
+
+for f in "${!file_type[@]}"; do 
+  echo "$f -> ${file_type[$f]}"
+done

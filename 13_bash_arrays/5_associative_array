@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+
+declare -A movie_ratings
+
+movie_ratings["inception"]=5
+movie_ratings["expendable"]=3
+movie_ratings["seinfeld"]=4
+
+for movie in "${!movie_ratings[@]}"; do
+  echo "movie $movie has rating ${movie_ratings[$movie]}"
+done
