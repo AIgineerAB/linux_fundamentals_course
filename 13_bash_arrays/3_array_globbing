@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+mkdir -p assets
+touch assets/file{1..5}.txt assets/cool{1..3}.pdf
+
+txt_files=( assets/*.txt ) 
+
+echo "found ${#txt_files[@]} txt files"
+echo "${txt_files[@]}"
