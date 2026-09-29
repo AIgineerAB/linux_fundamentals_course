@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+
+fruits=(apple pear banana kiwi)
+
+echo "fruits[0]: $fruits"
+echo "fruits[0]: ${fruits[0]}"
+echo "fruits[1]: ${fruits[1]}"
+echo "fruits[2]: ${fruits[2]}"
+echo "fruits[-1]: ${fruits[-1]}"
+
+echo "all fruits using * (stringify): ${fruits[*]}"
+
+IFS=$'\n'
+echo "All fruits after setting IFS to newline separtor"
+echo "${fruits[*]}"
+echo "all fruits: ${fruits[@]}"

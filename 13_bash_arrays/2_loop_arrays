@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+
+fruits=(apple pear banana kiwi)
+echo "for fruits[@]"
+for fruit in "${fruits[@]}"; do 
+  echo "Fruit: $fruit"
+done 
+
+# gets everything as one string 
+echo 
+echo "for fruits[*]"
+for fruit in "${fruits[*]}"; do 
+  echo "Fruit: $fruit"
+done 

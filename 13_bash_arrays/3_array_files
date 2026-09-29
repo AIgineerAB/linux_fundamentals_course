@@ -1,0 +1,20 @@
+#!/usr/bin/env bash
+
+# put all files as a string in an array
+files=( * ) 
+
+echo "${files[@]}"
+echo
+
+echo "Checking properties of files in this folders"
+for file in "${files[@]}"; do 
+  if [[ -d $file ]]; then 
+      echo "$file is a directory"
+  elif [[ -x "$file" ]]; then 
+      echo "$file is executable"
+  else
+      echo "$file is a regular file"
+  fi
+done
+
+
