@@ -2,10 +2,14 @@
 
 file=secret.proj1.pdf
 # single # non-greedy -> matches shortest possible string that fits pattern
-echo -e "remove shortest match from start\n${file} -> ${file#*.}"
+echo -e "remove shortest match from start\n${file} -> ${file#*.}\n"
 
 # ## is greedy -> matches longest possible string that fits pattern
-echo -e "remove longest match from start\n${file} -> ${file##*.}"
+echo -e "remove longest match from start\n${file} -> ${file##*.}\n"
+
+echo -e "remove shortest match from end\n${file} -> ${file%.*}\n"
+echo -e "remove longest match from end\n${file} -> ${file%%.*}\n"
+
 
 project="${file#*.}"
 # %.* removes suffix
@@ -13,3 +17,10 @@ project="${project%.*}"
 echo -e "pick middle\n${file} -> ${project}"
 
 
+echo "$PWD"
+
+repo_path="${PWD%/*}"
+echo "$repo_path"
+
+repo_name="${PWD##*/}"
+echo "$repo_name"
