@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+
+fruit='sweet mango' 
+echo $fruit
+echo '$fruit'
+echo "$fruit"
+echo "length of $fruit ${#fruit}"
+
+echo
+echo 'substring extraction'
+echo "from index 5 to end: ${fruit:5}"
+echo "start:length: ${fruit:2:5}"
+echo "all except last 6 chars: ${fruit:0:-6}"
+echo "last five chars: ${fruit: -5}"

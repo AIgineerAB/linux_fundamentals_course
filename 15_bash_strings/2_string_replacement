@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+
+fruit='sweet mango' 
+
+# -e interprets backslash-escapes
+echo -e "replace first match:\n${fruit} ->  ${fruit/mango/kiwi}"
+echo -e "replace all matches:\n${fruit} -> ${fruit//e/3}"
+echo -e "replace if it matches from start:\n${fruit} -> ${fruit/#sweet/sour}"
+echo -e "replace if it matches at end:\n${fruit} -> ${fruit/%mango/banana}"
+
+

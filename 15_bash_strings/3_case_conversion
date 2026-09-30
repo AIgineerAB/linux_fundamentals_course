@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+fruit='Sweet Mango' 
+
+echo -e "uppercase all:\n${fruit} -> ${fruit^^}"
+echo -e "lowercase all:\n${fruit} -> ${fruit,,}"
+echo -e "capitalize first letters:\n${fruit} -> ${fruit^}"
+echo -e "lowercase first letters:\n${fruit} -> ${fruit,}"
+
+

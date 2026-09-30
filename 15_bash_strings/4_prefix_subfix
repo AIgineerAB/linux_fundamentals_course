@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+
+file=secret.proj1.pdf
+# single # non-greedy -> matches shortest possible string that fits pattern
+echo -e "remove shortest match from start\n${file} -> ${file#*.}"
+
+# ## is greedy -> matches longest possible string that fits pattern
+echo -e "remove longest match from start\n${file} -> ${file##*.}"
+
+project="${file#*.}"
+# %.* removes suffix
+project="${project%.*}"
+echo -e "pick middle\n${file} -> ${project}"
+
+
