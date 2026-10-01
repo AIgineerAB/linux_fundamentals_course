@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+animal1="rabbit"
+animal2="cat"
+
+sentence="I love $animal1 and $animal2"
+
+echo "$sentence"
+
