@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+
+file_exists() {
+  # local to have local scoping of variable
+  local file="$1"
+  if [[ -f "$file" ]]; then
+    return 0
+  else
+    return 1
+  fi
+}
+
+
