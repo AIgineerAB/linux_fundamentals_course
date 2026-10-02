@@ -1,9 +1,7 @@
 # Use alias to create comfortable shortcuts
 
-TODO: video
-
-<a href="" target="_blank">
-  <img src="https://github.com/kokchun/assets/blob/main/linux/.png?raw=true" alt="file management" width="600"/>
+<a href="https://youtu.be/I-NvxPYVWNE" target="_blank">
+  <img src="https://github.com/kokchun/assets/blob/main/linux/.png?raw=true" alt="alias" width="600"/>
 </a>
 
 ## alias
