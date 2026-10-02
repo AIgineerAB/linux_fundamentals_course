@@ -1,0 +1,32 @@
+#!/usr/bin/env bash
+
+greeter() {
+  echo "Hello there ${1^} you are $2 years old"
+}
+
+print_arguments() {
+  echo "Function name: $FUNCNAME"
+  echo "Number arguments $#"
+  echo "Arguments: $@"
+}
+
+is_odd() {
+  if (( $1 % 2 == 0)); then
+      return 1 # false
+  else
+      return 0 # success
+  fi
+}
+
+# argument of the script passes into the greeter function
+greeter $1 $2
+
+echo
+print_arguments $1 $2
+
+echo 
+is_odd 5
+echo $? # 0
+
+is_odd 8
+echo $? # 1
