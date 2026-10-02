@@ -22,5 +22,5 @@ echo "$PWD"
 repo_path="${PWD%/*}"
 echo "$repo_path"
 
-repo_name="${PWD##*/}"
+repo_name="${repo_name##*/}"
 echo "$repo_name"
