@@ -23,8 +23,12 @@ vim ~/.bashrc
 alias ll='ls -alF --color=auto'         
 alias ll='ls -alF --color=auto'         
 alias gs='git status'                   
-alias ..='cd .. && ls'                  
+alias ..='cd ..'                  
 alias c=clear 
+alias github='cd ~/Documents/github'
+alias ehco=echo
+alias l=ls
+alias sbash='source ~/.bashrc'
 ```
 
 
