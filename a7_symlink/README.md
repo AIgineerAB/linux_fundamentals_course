@@ -1,9 +1,7 @@
 # Create shortcuts with symlinks 
 
-TODO: video
-
-<a href="" target="_blank">
-  <img src="https://github.com/kokchun/assets/blob/main/linux/.png?raw=true" alt="symlinks" width="600"/>
+<a href="https://youtu.be/_bMWj-aOQ_M" target="_blank">
+  <img src="https://github.com/kokchun/assets/blob/main/linux/symlink.png?raw=true" alt="symlinks" width="600"/>
 </a>
 
 ## symlink
