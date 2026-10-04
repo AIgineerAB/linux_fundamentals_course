@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+
+SRC="$HOME/Desktop"
+DEST="$HOME/Backups/Desktop-$(date +%Y%m%d-%H%M%S)"
+
+mkdir -p "$HOME/Backups"
+
+if [[ -d "$SRC" ]]; then 
+    cp -r "$SRC" "$DEST"
+    echo "[$(date "+%Y-%m-%d %H:%M:%S")] backed up $SRC to $DEST" 
+    
+else
+    echo "$SRC not found"
+fi

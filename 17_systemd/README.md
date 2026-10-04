@@ -20,8 +20,8 @@ ln -s <path_to_script> ~/.local/bin/<scriptname>
 
 ```bash
 sudo systemctl daemon-reload
-sudo systemctl enable <service-name>.service
-sudo systemctl start <service-name>
+systemctl --user enable <service-name>.service
+systemctl start <service-name>
 ```
 
 5. Check status 
@@ -35,7 +35,7 @@ systemctl status <service-name>
 
 ```ini
 [Unit]
-Description="Backup pictures"
+Description="Backup desktop on system start"
 # symlink to boot mode config file for your system
 # i.e. start this service after boot process is finished
 After=default.target
@@ -44,7 +44,7 @@ After=default.target
 # runs once
 Type=oneshot
 # %h -> home directory
-ExecStart=%h/.local/bin/backup-secrets
+ExecStart=%h/.local/bin/backup-desktop
 
 [Install]
 # service starts when boots normally
