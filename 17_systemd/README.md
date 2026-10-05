@@ -19,7 +19,7 @@ ln -s <path_to_script> ~/.local/bin/<scriptname>
 ```bash
 sudo systemctl daemon-reload
 systemctl --user enable <service-name>.service
-systemctl start <service-name>
+systemctl --user start <service-name>
 ```
 
 5. Check status 
